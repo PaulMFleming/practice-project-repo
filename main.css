@@ -1,0 +1,49 @@
+#container{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-size: 0;
+}
+#welcomeimage{
+	width: 100%px;
+	height: 400px;
+	z-index: 100;
+}
+#rmbox{
+	width: 100%;
+	height: 100%;
+	background-color: #E3D3A0;
+	opacity: 0.7;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+#bubbleimage{
+	width: 200%;
+	height: 200%;
+	position: relative;
+}
+.box{
+	position: relative;
+	width: 40%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: bordr-box;
+	box-sizing: border-box;
+}
+.handwriting{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15px;
+	position: absolute;
+	top: 50px;
+	z-index: 100;
+}
+body{
+	background-image: url(image/back1.jpg);
+	background-size: cover;
+}
+p{
+	z-index: 100;
+}
